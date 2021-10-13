@@ -1,0 +1,14 @@
+<script src="dist/index.js"></script>
+
+<script>
+  const utils = window.vueutils
+
+  const getLocal = utils.getLocal
+  const setLocal = utils.setLocal
+
+  console.log(getLocal("foo", "bar"))
+
+  setLocal("foo", "baz")
+
+  console.log(getLocal("foo", "bar"))
+</script>

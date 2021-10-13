@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "1.0.2",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bump": "node node_modules/@publishvue/vueutils/bin/bump.js"
+  },
+  "dependencies": {
+    "@publishvue/vueutils": "^1.0.11"
+  }
+}

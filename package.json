@@ -1,0 +1,40 @@
+{
+  "name": "@publishvue/vueutils",
+  "version": "1.0.13",
+  "description": "Vue component library.",
+  "keywords": [
+    "vue",
+    "component",
+    "library"
+  ],
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "bin": {
+    "bump": "node ./bin/bump.js"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "repository": "https://github.com/hyperbotauthor/vueutils",
+  "author": "hyperbotauthor <<>>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "auth": "bash auth.sh",
+    "build": "webpack",
+    "bump": "node bump.js",
+    "serve": "http-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.2",
+    "http-server": "^13.0.2",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "parse-git-config": "^3.0.0"
+  }
+}
